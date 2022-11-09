@@ -1,0 +1,22 @@
+<!doctype html>
+
+
+<head>
+<style>
+body,html{  height: 100%;   overflow: hidden;    background-size: cover;
+}
+
+.l-form{  background-color:darkgreen;  border-radius:12px;  padding: 12px;
+}
+
+.i-form{  border-radius:12px;  padding: 12px;
+}
+</style>    <!-- Required meta tags -->    <meta charset="utf-8">    <meta name="viewport" content="width=device-width, initial-scale=1">        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">       <title>Login</title>
+</head>
+
+<body>  <div class="row align-items-center h-100 ">      <div class="col-8 col-md-3 col-xs-8 mx-auto l-form">          <form>                            <div class="form-group">
+<label for="usuario">LOGIN</label>                  <input type="text" name="email" placeholder="e-mail" class="form-control i-form">              </div>              <div class="form-group">
+<label for="password">SENHA</label>                  <input type="password" name="password" placeholder="senha" class="form-control i-form">              </div>              <div class="form-group">                  <button type="button" class="btn btn-dark btn-md btn-block">Login</button>              </div>          </form>      </div>  </div>
+</body>
+
+</html>
